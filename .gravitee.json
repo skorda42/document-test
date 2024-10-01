@@ -9,7 +9,7 @@
                 "homepage": true
             },
             {
-                "src": "/readme.md",
+                "src": "/README.md",
                 "dest": "/technical",
                 "name": "Swagger"
             }

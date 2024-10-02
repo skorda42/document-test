@@ -1,18 +1,37 @@
 {
-    "version": 1,
-    "documentation": {
-        "pages": [
-            {
-                "src": "/newdoc/readme.md",
-                "dest": "/",
-                "name": "Homepage",
-                "homepage": true
-            },
-            {
-                "src": "/README.md",
-                "dest": "/technical",
-                "name": "Swagger"
-            }
-        ]
-    }
+  "version": 1,
+  "documentation": {
+    "pages": [
+      {
+        "src": "/.__mlpapi_toc.md",
+        "dest": "/v1/",
+        "name": ".__mlpapi_toc.md",
+        "homepage": false
+      },
+      {
+        "src": "/overview.md",
+        "dest": "/v1/",
+        "name": "Overview",
+        "homepage": false
+      },
+      {
+        "src": "/errors/error-handling.md",
+        "dest": "/v1/",
+        "name": "Error Handling",
+        "homepage": false
+      },
+      {
+        "src": "/errors/advanced-error-handling.md",
+        "dest": "/v1/Error Handling/",
+        "name": "Advanced error handling",
+        "homepage": false
+      },
+      {
+        "src": "/testing/testing.md",
+        "dest": "/v1/Test your API/",
+        "name": "Testing",
+        "homepage": false
+      }
+    ]
+  }
 }
